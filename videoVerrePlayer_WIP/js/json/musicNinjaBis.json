@@ -1,0 +1,153 @@
+{
+    "videoName": "Ninja BIS",
+
+    "videoID": "jyZbt5obvQg",
+
+    "description": "BIS : Un passage de Rythm Fever",
+
+    "actions": [
+        {
+            "nom": "Drink",
+            "toleranceBefore": 1000,
+            "toleranceAfter": 0,
+            "eventList": [
+                {
+                    "eventStart": 20.18,
+                    "eventEnd": 20.65
+ }, {
+                    "eventStart": 68.58,
+                    "eventEnd": 68.58
+ }, {
+                    "eventStart": 107.694,
+                    "eventEnd": 107.72
+ }, {
+                    "eventStart": 115.69,
+                    "eventEnd": 115.71
+ }
+        ]
+
+        },
+        {
+            "nom": "Hold",
+            "toleranceBefore": 500,
+            "toleranceAfter": 500,
+            "eventList": [
+                {
+                    "eventStart": 42.03,
+                    "eventEnd": 42.52
+}, {
+                    "eventStart": 50.04,
+                    "eventEnd": 50.52
+}, {
+                    "eventStart": 58.07,
+                    "eventEnd": 58.55
+}, {
+                    "eventStart": 66.04,
+                    "eventEnd": 66.54
+}, {
+                    "eventStart": 72.56,
+                    "eventEnd": 72.57
+}, {
+                    "eventStart": 76.07,
+                    "eventEnd": 76.55
+}, {
+                    "eventStart": 80.09,
+                    "eventEnd": 80.57
+}, {
+                    "eventStart": 88.03,
+                    "eventEnd": 88.48
+}, {
+                    "eventStart": 92.19,
+                    "eventEnd": 92.58
+}, {
+                    "eventStart": 96.10,
+                    "eventEnd": 96.55
+}, {
+                    "eventStart": 103.07,
+                    "eventEnd": 103.10
+}, {
+                    "eventStart": 105.01,
+                    "eventEnd": 105.03
+}, {
+                    "eventStart": 110.60,
+                    "eventEnd": 111.07
+}, {
+                    "eventStart": 113.05,
+                    "eventEnd": 113.07
+}
+        ]
+        },
+        {
+            "nom": "Touch",
+            "toleranceBefore": 500,
+            "toleranceAfter": 500,
+            "eventList": [
+                {
+                    "eventStart": 22.08
+}, {
+                    "eventStart": 24.03
+}, {
+                    "eventStart": 26.06
+}, {
+                    "eventStart": 28.57
+}, {
+                    "eventStart": 30.07
+}, {
+                    "eventStart": 32.06
+}, {
+                    "eventStart": 34.07
+}, {
+                    "eventStart": 36.55
+}, {
+                    "eventStart": 38.06
+}, {
+                    "eventStart": 40.07
+}, {
+                    "eventStart": 44.06
+}, {
+                    "eventStart": 46.08
+}, {
+                    "eventStart": 48.06
+}, {
+                    "eventStart": 52.58
+}, {
+                    "eventStart": 54.08
+}, {
+                    "eventStart": 56.03
+}, {
+                    "eventStart": 60.03
+}, {
+                    "eventStart": 62.03
+}, {
+                    "eventStart": 64.06
+}, {
+                    "eventStart": 70.57
+}, {
+                    "eventStart": 74.55
+}, {
+                    "eventStart": 78.55
+}, {
+                    "eventStart": 82.56
+}, {
+                    "eventStart": 85.06
+}, {
+                    "eventStart": 86.53
+}, {
+                    "eventStart": 90.55
+}, {
+                    "eventStart": 94.55
+}, {
+                    "eventStart": 98.56
+}, {
+                    "eventStart": 101.07
+}, {
+                    "eventStart": 108.55
+}, {
+                    "eventStart": 116.55
+}, {
+                    "eventStart": 119.06
+}
+            ]
+    }
+    ]
+}

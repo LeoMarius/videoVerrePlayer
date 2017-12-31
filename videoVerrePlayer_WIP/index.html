@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Youtube</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/youTube.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+
+<body>
+
+    <div id="player" class="centerContents"></div>
+
+    <button id="recordBtn" title="activer l'enregistrement des actions" class="btnInterface btnRecord glyphicon glyphicon-record"></button>
+
+    <div id="editTools">
+
+
+        <div id="formEdit">
+            <form>
+
+                Youtube ID:
+                <input type="text" name="Yid">
+                <br>
+
+                <input type="submit" value="" class="btnStartVideo glyphicon glyphicon-wrench">
+
+            </form>
+        </div>
+
+
+
+
+    </div>
+
+    <div id="menu" class="centerContents">
+
+        <div id="Editeur" class="blocsMenu">
+            <div class="videoStart">
+                <div class="videoInfo"><b>Editeur de pistes</b>
+
+                </div>
+
+                <div class="videoBloc">
+                    <form id="editeurSubmit" action="javascript:;" onsubmit="editeurSubmit(this)">
+
+                        Youtube ID:
+                        <input type="text" name="Yid" value="ApivpSFaHuE">
+                        <br>
+
+
+
+                        <input type="submit" value="" class="btnStartVideo glyphicon glyphicon-wrench">
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="myProgress">
+        <div id="myBar">
+            <div class="marqueurTemps"></div>
+        </div>
+
+    </div>
+
+
+    <button id="fullScreenBtn" title="Full Screen" class="btnInterface btnGrey glyphicon glyphicon-fullscreen"></button>
+
+
+
+    <!-- jQuery -->
+    <script src="js/libs/jquery.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/libs/bootstrap.js"></script>
+    <!-- FileSaver -->
+    <script src="js/libs/FileSaver.js"></script>
+
+
+
+    <script src="js/rythmeScripts.js"></script>
+    <script src="js/playerRelated.js"></script>
+    <script src="js/keyPressed.js"></script>
+
+    <script src="js/actionsInterface.js"></script>
+    <script src="js/fonctionsPratiques.js"></script>
+    <script src="js/bacASable.js"></script>
+    <script src="js/affichage.js"></script>
+    <script src="js/baseScript.js"></script>
+
+
+    <script src="js/gestionGameplay.js"></script>
+    
+        <script src="js/actionsInit.js"></script>
+
+</body>
+
+</html>

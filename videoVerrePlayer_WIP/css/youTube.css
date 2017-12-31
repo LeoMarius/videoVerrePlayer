@@ -1,0 +1,159 @@
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+#rectangle {
+    position: absolute;
+    top: 50px;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+#player {
+    position: absolute;
+    top: 030px;
+    left: 0px
+}
+
+#myProgress {
+    width: 80%;
+    background-color: darkgrey;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    margin: 5px;
+    padding: 5px;
+}
+
+#myBar {
+    width: 25%;
+    height: 30px;
+    background-color: darkgreen;
+}
+
+.marqueurTemps {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: white;
+    top: 33%;
+    left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnInterface {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    z-index: 100;
+}
+
+.btnGrey {
+    color: lightgray;
+    background-color: grey;
+    border-color: darkslategrey;
+}
+
+#fullScreenBtn {
+    position: absolute;
+    top: 90%;
+    right: 2%;
+}
+
+#player {
+}
+
+#menu {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 94%;
+    height: 90%;
+    text-align: center;
+    overflow-y:auto;
+}
+
+.blocsMenu {
+    /* position: relative;*/
+    width: 250px;
+    height: auto;
+    border-color: aquamarine;
+    border-style: solid;
+    background-color: azure;
+    margin: 20px;
+    display: inline-flex;
+    
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.thumbnailImgMenu {
+    max-height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btnStartVideo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.videoBloc {
+    width: 100%;
+    display: inline-block;
+    align-content: center;
+}
+
+.videoInfo {
+    width: 100%;
+    height: auto;
+}
+.actionList{
+    margin: 5px;
+    font-style: italic;
+}
+
+.videoImage {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.videoStart {
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+#recordBtn{
+    
+        position: absolute;
+    top: 5%;
+    right: 2%;
+    
+}
+.btnRecord{
+    color: red;
+    background-color: dimgray;
+    font-size: 35px;
+    border-color: black
+}
+.btnStop{
+    
+}
+
+
+}
